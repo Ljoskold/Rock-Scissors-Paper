@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid purple;
+}
+.info {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px;
+}
+.container {
+    border: 1px solid black;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+.computerImg {
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin: auto;
+}
+.scoreBoard {
+    border: 1px solid black;
+    width: 40%;
+    height: 50px;
+    margin: auto;
+}
+.playerImg {
+    border: 1px solid black;
+    width: 20%;
+    height: 200px;
+    margin: auto;
+}
+.playerChoices {
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
+#rock, #scissors, #paper {
+    width: 20%;
+    height: 80%;
+    margin-top: 25px;
+    border: 1px solid black;
+}
