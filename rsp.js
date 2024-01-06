@@ -101,6 +101,6 @@ function game(){
         updateScore();                          
 }
 function restartGame(){
-    location.replace("rsp.html");
+    location.replace("index.html");
 }
 document.getElementById("Ok").addEventListener("click", restartGame);
